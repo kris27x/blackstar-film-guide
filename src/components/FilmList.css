@@ -1,12 +1,12 @@
 .film-list-container {
+    margin-top: 160px;
     width: 100%;
     max-width: 1200px;
-    margin: 40px auto;
     padding: 20px;
     box-sizing: border-box;
     text-align: center;
-  }
-  
+}
+
   .film-list-title {
     font-family: 'Matter', sans-serif;
     font-size: 36px;

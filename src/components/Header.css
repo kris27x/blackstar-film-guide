@@ -1,0 +1,85 @@
+.app-header {
+    width: 100%;
+    height: 146px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.header-background {
+    background: #000000;
+    height: 146px;
+    width: 100%;
+    border-radius: 0px 0px 40px 40px;
+}
+
+.header-container {
+    max-width: 1920px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 80px;
+    height: 100%;
+}
+
+.logo img {
+    width: 629px;
+    height: 36.18px;
+}
+
+.nav-menu ul {
+    display: flex;
+    list-style-type: none;
+    gap: 40px;
+}
+
+.nav-menu ul li a {
+    text-decoration: none;
+    font-family: 'Matter', sans-serif;
+    font-size: 18px;
+    color: #F1ECE6;
+}
+
+.header-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.header-btn {
+    font-family: 'Matter', sans-serif;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 25px;
+    border: 1px solid #000000;
+    cursor: pointer;
+}
+
+.header-btn.primary {
+    background-color: #F1ECE6;
+    color: #000000;
+}
+
+.header-btn.secondary {
+    background-color: transparent;
+    color: #F1ECE6;
+    border: 1px solid #F1ECE6;
+}
+
+.content-container {
+    margin-top: 160px;
+    padding: 20px;
+}
+
+@media (max-width: 768px) {
+    .header-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-menu ul {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
