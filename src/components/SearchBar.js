@@ -1,13 +1,7 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './SearchBar.css';
 
 const SearchBar = ({ tags, onTagFilter, selectedTag }) => {
-  const [searchTerm, setSearchTerm] = useState('');
-
-  const handleSearch = (e) => {
-    setSearchTerm(e.target.value);
-  };
-
   const handleTagClick = (tag) => {
     onTagFilter(tag);
   };
