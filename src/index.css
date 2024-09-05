@@ -1,13 +1,28 @@
+@font-face {
+  font-family: 'Matter-Regular';
+  src: url('./assets/Matter-Regular.woff2') format('woff2'),
+       url('./assets/Matter-Regular.woff') format('woff'),
+       url('./assets/Matter-Regular.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Matter-Medium';
+  src: url('./assets/Matter-Medium.woff2') format('woff2'),
+       url('./assets/Matter-Medium.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Panama-Bold';
+  src: url('./assets/Panama-Bold.woff') format('woff');
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Matter-Regular', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: 'source-code-pro', Menlo, Monaco, Consolas, 'Courier New', monospace;
 }

@@ -22,10 +22,12 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  font-family: 'Matter-Regular', sans-serif;
 }
 
 .App-link {
   color: #61dafb;
+  font-family: 'Matter-Medium', sans-serif;
 }
 
 @keyframes App-logo-spin {
