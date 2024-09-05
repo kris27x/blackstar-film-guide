@@ -17,10 +17,14 @@ const FilmList = ({ films }) => {
               />
               <div className="film-details">
                 <h2 className="film-title">{film.title.rendered}</h2>
-                <p className="film-meta">{film.runtime} minutes • {film.genre}</p>
+                <p className="film-meta">{film.runtime || 'N/A'} minutes • {film.genre || 'Genre'}</p>
                 <div className="film-buttons">
                   <button className="btn btn-primary">Read More</button>
-                  <button className="btn btn-secondary">Watch Trailer</button>
+                  {film.trailer_url && (
+                    <button className="btn btn-secondary">
+                      <a href={film.trailer_url} target="_blank" rel="noopener noreferrer">Watch Trailer</a>
+                    </button>
+                  )}
                 </div>
               </div>
             </Link>
