@@ -8,12 +8,12 @@ const Header = () => {
       <div className="header-background">
         <div className="header-container">
           <Link to="/" className="logo">
-            <img src="/path/to/logo.png" alt="Logo" />
+            <img src={require('./../assets/logob.png')} alt="Logo" />
           </Link>
           <nav className="nav-menu">
             <ul>
               <li><Link to="/festival">Festival</Link></li>
-              <li><Link to="">Film Guide</Link></li>
+              <li><Link to="/">Film Guide</Link></li>
               <li><Link to="/tickets">Tickets</Link></li>
               <li><Link to="/about">About</Link></li>
               <li><Link to="/contact">Contact</Link></li>

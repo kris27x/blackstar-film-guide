@@ -14,6 +14,10 @@
     border-radius: 0px 0px 40px 40px;
 }
 
+.logo img {
+    max-width: 25%;
+}
+
 .header-container {
     max-width: 1920px;
     margin: 0 auto;
@@ -22,11 +26,6 @@
     align-items: center;
     padding: 0 80px;
     height: 100%;
-}
-
-.logo img {
-    width: 629px;
-    height: 36.18px;
 }
 
 .nav-menu ul {
@@ -45,6 +44,7 @@
 .header-buttons {
     display: flex;
     gap: 10px;
+    margin-left: 40px;
 }
 
 .header-btn {
