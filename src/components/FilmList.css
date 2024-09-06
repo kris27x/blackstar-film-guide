@@ -1,5 +1,10 @@
 body, html {
-    margin-top: 160px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #FF6222;
+    font-family: 'Matter', sans-serif;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -12,17 +17,11 @@ body, html {
     padding: 20px;
     box-sizing: border-box;
     text-align: center;
+    background-color: #FF6222;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  }
-  
-  .film-list-title {
-    font-family: 'Matter', sans-serif;
-    font-size: 36px;
-    color: #000;
-    margin-bottom: 40px;
   }
   
   .film-grid {
@@ -64,6 +63,7 @@ body, html {
   .film-details {
     padding: 20px;
     flex-grow: 1;
+    background-color: #FF6222;
   }
   
   .film-title {
@@ -115,11 +115,6 @@ body, html {
     background-color: #f2f2f2;
   }
   
-  .btn-secondary a {
-    text-decoration: none;
-    color: inherit;
-  }
-  
   .load-more {
     margin-top: 30px;
     font-family: 'Matter', sans-serif;
@@ -162,5 +157,4 @@ body, html {
       font-size: 16px;
       padding: 8px 20px;
     }
-  }
-  
+  }  

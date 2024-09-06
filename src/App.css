@@ -1,5 +1,18 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #FF6222;
+  font-family: 'Matter-Regular', sans-serif;
+  min-height: 100vh;
+}
+
 .App {
   text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #FF6222;
 }
 
 .App-logo {
@@ -28,13 +41,4 @@
 .App-link {
   color: #61dafb;
   font-family: 'Matter-Medium', sans-serif;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }

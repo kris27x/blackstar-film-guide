@@ -13,7 +13,7 @@ const Header = () => {
           <nav className="nav-menu">
             <ul>
               <li><Link to="/festival">Festival</Link></li>
-              <li><Link to="/film-guide">Film Guide</Link></li>
+              <li><Link to="">Film Guide</Link></li>
               <li><Link to="/tickets">Tickets</Link></li>
               <li><Link to="/about">About</Link></li>
               <li><Link to="/contact">Contact</Link></li>
